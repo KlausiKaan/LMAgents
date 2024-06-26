@@ -1,28 +1,25 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff; /* White background */
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
+    margin: 20px;
+    padding-bottom: 50px; /* Added padding at the bottom */
 }
 
-.main-container {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
+h1 {
+    color: #333;
+    text-align: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #chat {
@@ -95,4 +92,11 @@ select {
     border: 1px solid #ccc;
     border-radius: 6px;
     width: 200px;
+}
+
+.BigBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
